@@ -49,6 +49,36 @@ Future updates will include **JavaScript features and UI improvements**.
 
 ---
 
+## Screenshots
+
+### Hero Section
+![Hero Section](Screenshots/hero.png)
+
+### About Section
+![About Section](Screenshots/about.png)
+
+### Skills Section
+![Skills Section](Screenshots/skills.png)
+
+## Resume
+
+### Resume Page 1
+![Resume 01]("Screenshots/resume 01.png")
+
+### Resume Page 2
+![Resume 02]("Screenshots/resume 02.png")
+
+### Resume Page 3
+![Resume 03]("Screenshots/resume 03.png")
+
+### Projects Section
+![Projects Section](Screenshots/projects.png)
+
+### Contact Section
+![Contact Section](Screenshots/contact.png)
+
+---
+
 ## Planned Improvements (v1.1)
 
 * Add **JavaScript interactions**
