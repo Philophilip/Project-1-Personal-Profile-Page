@@ -72,7 +72,7 @@ The purpose of this project is to:
 
 ## Author
 
-**Phil Philip**
+**Philo Yesudas Philip**
 
 Aspiring **Full Stack Developer** currently focusing on mastering:
 
