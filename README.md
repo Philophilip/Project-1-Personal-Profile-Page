@@ -63,13 +63,13 @@ Future updates will include **JavaScript features and UI improvements**.
 ## Resume
 
 ### Resume Page 1
-![Resume 01]("Screenshots/resume 01.png")
+![Resume 01](Screenshots/resume%2001.png)
 
 ### Resume Page 2
-![Resume 02]("Screenshots/resume 02.png")
+![Resume 02](Screenshots/resume%2002.png)
 
 ### Resume Page 3
-![Resume 03]("Screenshots/resume 03.png")
+![Resume 03](Screenshots/resume%2003.png)
 
 ### Projects Section
 ![Projects Section](Screenshots/projects.png)
