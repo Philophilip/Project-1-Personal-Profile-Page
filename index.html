@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 — Personal Profile Page</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <header>
+        <h2>Portfolio.</h2>
+        <nav>
+            <!--Navigation links-->
+            <ul>
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section id="hero">
+        <!--Hero Content-->
+        <div id="hero-card">
+            <h1>My Portfolio</h1>
+            <h3>Philo Yesudas Philip</h3>
+            <h5>I am <span id="typing"></span></h5>
+            <p>I am a passionate web developer learning to create amazing web experiences.</p>
+            <!--Button for View Projects-->
+            <div id="projectHero">
+                <a href="#project">View my Projects</a>
+            </div>
+            <!--Social Media Links- Gitbub, Email, LinkedIn-->
+            <div id="icons">
+                <p> <a href="mailto:philophilip221@gmail.com"><i class="fa-solid fa-at"></i></a>
+                    <a href="https://www.linkedin.com/in/philo-yesudas-philip"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Philophilip"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </div>
+
+        </div>
+
+        <!--Hero Image-->
+        <div>
+            <img src="./images/profile picture 1.jpeg" alt="Profile Picture">
+        </div>
+
+    </section>
+
+    <!--About Section-->
+    <section id="about">
+        <!--Hero Image and Details Card-->
+        <div id="aboutLeftCard">
+            <!--Hero Image-->
+            <div id="aboutHeroImage">
+                <img width="250px" height="auto" src="./images/profile picture 1.jpeg" alt="Profile Picture 2">
+                <h4>Philo Yesudas Philip</h4>
+                <p>Web Developer</p>
+            </div>
+
+            <!--Basic Details -Phone Number, Email, Address-->
+            <div id="aboutHeroContent">
+                <p id="aboutEmail"><i class="fa-solid fa-envelope"></i> phiophilip21@gmail.com</p>
+                <p id="aboutPhone"><i class="fa-solid fa-phone"></i> +91 7034 081 452</p>
+                <p id="aboutAddress"><i class="fa-solid fa-location-pin"></i> Kochi, Ernakulam</p>
+            </div>
+
+        </div>
+
+        <!--Aboout Me Content-->
+        <div id="aboutRightCard">
+            <div id="aboutTitleIntro">
+                <h3>Know Me</h3>
+                <h2>Passionate Web Developer</h2>
+
+                <p>Focused on mastering web development through discipline, practice, and real project experience.
+                    Currently building a strong foundation in HTML, CSS, and JavaScript while working toward creating
+                    scalable and well-structured web applications.</p>
+            </div>
+
+            <div id="aboutTitleCard">
+                <!--Second Card-->
+                <div id="aboutSpecsCard">
+
+                    <div id="specCard1">
+                        <h3>Specializations</h3>
+                        <p>FrontEnd Development</p>
+
+                        <h3>Experience Level</h3>
+                        <p>Entry-Level Developer</p>
+                    </div>
+
+
+                    <div id="specCard2">
+                        <h3>Education</h3>
+                        <p>Computer Science, B.Tech</p>
+
+                        <h3>Languages</h3>
+                        <p>Malayalam, English, Hindi</p>
+                    </div>
+
+                </div>
+
+                <!--Button Div-->
+                <div id="aboutDownloadCV">
+                    <button>Download CV</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Skill Section-->
+    <section id="skills">
+        <h3>-Skills-</h3>
+
+        <div id="skillCard">
+
+            <!--Card 1-->
+            <div id="skillCard1">
+                <h4>Technical Skills</h4>
+                <div id="borderBottom"></div>
+
+                <!--HTML -->
+                <div id="statusCardHTML">
+                    <!--HTML and %-->
+                    <div id="skillCardHTML" class="htmlSkill">
+                        <h6><span>HTML</span><span>80%</span></h6>
+
+                        <!--Status bar-->
+                        <div id="statusBar">
+                            <div id="progressBar" class="html"></div>
+                        </div>
+                        <p class="skillText skillHTML">Knowledge of Semantic HTML5</p>
+                    </div>
+
+                    <!--CSS-->
+                    <div id="skillCardHTML" class="cssSkill">
+                        <!--CSS and %-->
+                        <h6> <span> CSS</span> <span>70%</span></h6>
+                        <!--Status Bar-->
+                        <div id="statusBar">
+                            <div id="progressBar" class="css"></div>
+                        </div>
+                        <p class="skillText skillCSS">Knowledge of CSS3 Techniques</p>
+                    </div>
+
+                    <!--JavaScript-->
+                    <div id="skillCardHTML" class="jsSkill">
+                        <!--JS and %-->
+                        <h6> <span>JavaScript</span> <span>65%</span> </h6>
+                        <!--Status Bar-->
+                        <div id="statusBar">
+                            <div id="progressBar" class="js"></div>
+                        </div>
+                        <p class="skillText skillJs">Knowledge of JavaScript logic and code.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Card 2-->
+            <div id="skillCard2">
+                <h4>Core Strengths</h4>
+                <div id="borderBottom"></div>
+                <!--Problem Solving -->
+                <div id="statusCard">
+                    <!--Problem Solving and %-->
+                    <div id="skillCardHTML" class="psSkill">
+                        <h6><span>Problem Solving</span> <span>78%</span></h6>
+                        <!--Status bar-->
+                        <div id="statusBar">
+                            <div id="progressBar" class="ps"></div>
+                        </div>
+                        <p class="skillText skillPs">Ability to analyze problems and find logical solutions while
+                            building applications.</p>
+                    </div>
+                    <!--Discipline-->
+                    <div id="skillCardHTML" class="discSkill">
+                        <!--Discipline and %-->
+                        <h6> <span>Discipline</span> <span>83%</span></h6>
+                        <!--Status Bar-->
+                        <div id="statusBar">
+                            <div id="progressBar" class="discipline"></div>
+                        </div>
+                        <p class="skillText skillDisc">Consistent daily practice and structured learning to improve
+                            development skills.</p>
+                    </div>
+
+                    <!--Continuous Learning-->
+                    <div id="skillCardHTML" class="clSkill">
+                        <!--CL and %-->
+                        <h6> <span>Constant Learning</span> <span>76%</span></h6>
+                        <!--Status Bar-->
+                        <div id="statusBar">
+                            <div id="progressBar" class="cl"></div>
+                        </div>
+                        <p class="skillText skillCl">Committed to constantly learning new technologies and improving
+                            coding abilities.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h1>-Resume-</h1>
+
+        <div id="resumeContainer">
+            <!--Left Section-->
+            <div id="resumeLeft">
+                <img width="300px" height="auto" src="./images/profile picture 1.jpeg" alt="Profile Picture 3">
+
+                <h2>Proffesional Summary </h2>
+                <p>Motivated web development learner dedicated to mastering modern web technologies through consistent
+                    project building and disciplined practice. Currently focused on HTML, CSS, and JavaScript while
+                    working
+                    toward developing scalable and well-structured web applications.</p>
+
+                <h2>Contact Infomation</h2>
+                <!--Email-->
+                <p class="resumeIcon"><i class="fa-solid fa-at"></i> philophilip21@gmail.com</p>
+                <!--Mobile Number-->
+                <p class="resumeIcon"><i class="fa-solid fa-mobile-alt"></i> +91 7034 081 452</p>
+                <!--Linkdin-->
+                <p class="resumeIcon"><i class="fa-brands fa-linkedin"></i> www.linkedin.com/in/philo-yesudas-philip</p>
+
+                <!--Technical Skill Card-->
+                <h2>Technical Skills</h2>
+                <div>
+                    <!--Skill Card-->
+                    <div class="cardResume">
+                        <h4><span>Web Development</span><span>60%</span></h4>
+                        <!--Staus Bar-->
+                        <div class="StatusBarResume">
+                            <div class="ProgressBarResume webDevelop"></div>
+                        </div>
+
+                        <h4><span>Project Management</span> <span>80%</span></h4>
+                        <!--Status Bar-->
+                        <div class="StatusBarResume">
+                            <div class="ProgressBarResume projectManagement"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Right Section - History-->
+            <div id="resumeRight">
+                <h2>Proffesional Experience</h2>
+
+                <!--Present Experience-->
+                <div class="firstExperience">
+                    <!--Arrow bar-->
+                    <div class="arrowFirst"></div>
+
+                    <!--Content-->
+                    <div class="firstExperienceContent">
+                        <h3>Full Stack Developer (MongoDB, Express, React & Angular, Node.js)</h3>
+                        <h4>January 2026 - Present</h4>
+                        <h5><span><i class="fa-solid fa-building"></i>
+                            </span> Luminar Technolab</h5>
+                        <ul>
+                            <li>Training as a Full Stack Developer, currently focusing on JavaScript fundamentals and
+                                building a strong base for the MERN stack (MongoDB, Express.js, React, Node.js).</li>
+                            <li>Developing hands-on experience with core JavaScript concepts including DOM manipulation,
+                                functions, asynchronous programming, and problem-solving.</li>
+                            <li>Building small projects to apply theoretical knowledge, strengthen coding skills, and
+                                improve practical development experience.</li>
+                            <li>Continuously learning frontend and backend technologies with the goal of creating
+                                scalable
+                                full-stack web applications and writing clean, maintainable code.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Second Experience-->
+                <div class="secondExperience">
+                    <!--Arrow bar-->
+                    <div class="arrowSecond"></div>
+
+                    <!--Content-->
+                    <div class="secondExperienceContent">
+                        <h3>Financial Recovery Analyst</h3>
+                        <h4>March 2024 - October 2025</h4>
+                        <h5><span><i class="fa-solid fa-building"></i></span> Neil Debt Collection</h5>
+                        <ul>
+                            <li>Managed end-to-end debt recovery operations, negotiating repayment plans with customers
+                                and
+                                handling overdue accounts to improve collection outcomes.</li>
+                            <li>Analyzed financial and repayment data to assess customer capacity and prioritize
+                                high-risk
+                                accounts, increasing recovery efficiency.</li>
+                            <li>Maintained detailed records of customer interactions, payment histories, and account
+                                statuses using internal systems and Excel-based tracking.</li>
+                            <li>Collaborated with internal teams to resolve discrepancies and ensure compliance with
+                                company
+                                policies and financial regulations while consistently meeting collection targets.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Third Experience-->
+                <div class="thirdExperience">
+                    <!--Arrow bar-->
+                    <div class="arrowThird"></div>
+
+                    <!--Content-->
+                    <div class="thirdExperienceContent">
+                        <h3>Special Project Intern</h3>
+                        <h4>December 2023 - February 2024</h4>
+                        <h5><span><i class="fa-solid fa-building"></i></span> Global Science Festival Kerala</h5>
+                        <ul>
+                            <li>Coordinated and hosted a public science outreach event focused on night sky observation,
+                                including planning and managing a night camping experience for participants.</li>
+                            <li>Collaborated with scientists and space research experts to organize interactive sessions
+                                on
+                                constellations, stars, and astronomical concepts.</li>
+                            <li>Managed event logistics, participant engagement, and on-ground operations to ensure
+                                smooth
+                                execution and an informative experience.</li>
+                            <li>Contributed to promoting scientific awareness and community interest in astronomy
+                                through
+                                effective coordination and communication.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Education</h2>
+
+                <!--First Education -->
+                <div class="firstEducation">
+                    <!--Arrow bar-->
+                    <div class="arrowFirstEd"></div>
+
+                    <!--Content-->
+                    <div class="firstEducationContent">
+                        <h3>Bachelor of Technology (B.Tech) - Computer Science</h3>
+                        <h4>2018 - 2022</h4>
+                        <h5><span><i class="fa-solid fa-building"></i></span> Amal Jyothi College of Engineering</h5>
+                        <ul>
+                            <li>Completed a Bachelor of Technology in Computer Science, building a strong foundation in
+                                programming, data structures, algorithms, and core software development principles.</li>
+                            <li>Developed analytical and problem-solving abilities through coursework and academic
+                                projects,
+                                gaining exposure to programming concepts, database fundamentals, and practical
+                                application
+                                development.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Second Education-->
+                <div class="secondEducation">
+                    <!--Arrow bar-->
+                    <div class="arrowSecondEd"></div>
+
+                    <!--Content-->
+                    <div class="secondEducationContent">
+                        <h3>Indian School Certificate (Class XII) - Computer Science</h3>
+                        <h4>2016 - 2018</h4>
+                        <h4><span><i class="fa-solid fa-building"></i></span> Bethany Academy</h4>
+                        <ul>
+                            <li>Completed Higher Secondary Education (Science stream) with a focus on mathematics and
+                                science, building strong analytical and logical reasoning skills.</li>
+                            <li>Developed problem-solving abilities and disciplined study habits through academic
+                                coursework, providing a solid foundation for further studies in computer science.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!--Project Section-->
+    <section id="project">
+        <h1>-Projects-</h1>
+        <div class="projectContainer">
+            <!--First Project-->
+            <div class="firstProject projectCard">
+                <div>
+                    <img width="400" height="auto" src="./images/eatKochi.jpg" alt="Project 1">
+                </div>
+                <div class="firstProjectContent">
+                    <h5>Eat Kochi</h5>
+                    <!--Read More-->
+                    <button> <i class="fa-solid fa-plus"></i></button>
+                    <!--  <p>🌐 Project: Eat Kochi – Food Website
+
+                        Designed and developed a modern, responsive food website “Eat Kochi” using HTML and Tailwind
+                        CSS. The project focuses on creating a clean, visually appealing interface to showcase
+                        food-related content with a user-friendly layout and smooth design.
+
+                        This project demonstrates my ability to build responsive web pages using utility-first CSS and
+                        create structured, attractive UI components without relying on complex frameworks.
+
+                        🚀 Key Features
+                        📱 Fully responsive design (mobile, tablet, and desktop)
+                        🎨 Modern UI built with Tailwind CSS
+                        ⚡ Fast and lightweight performance
+                        🧩 Clean and structured layout
+                        🍔 Food-themed design with attractive visuals
+                        🔍 Easy navigation and user-friendly interface
+
+                        🛠️ Technologies Used
+                        HTML5
+                        Tailwind CSS
+
+                        🌍 Live Demo
+
+                        🔗eat-kochi.vercel.app</p> -->
+                    <!--Redirect to Website-->
+                    <button><a target="_blank" href="https://eat-kochi.vercel.app/"> <i
+                                class="fa-solid fa-arrow-right"></i> </a></button>
+                </div>
+            </div>
+
+            <!--Second Project-->
+            <div class="secondProject projectCard">
+                <div>
+                    <img width="400" height="auto" src="./images/ironFistBox.jpg" alt="Project 2">
+                </div>
+                <div class="secondProjectContent">
+                    <h5>IronFist Boxing</h5>
+                    <!--Read More-->
+                    <button><i class="fa-solid fa-plus"></i></button>
+                    <!--  <p>🥊 Project: IronFist Box – Fitness & Boxing Website
+
+                        Designed and developed a modern, responsive website “IronFist Box” using HTML, CSS, and JavaScript. This project focuses on creating a strong visual identity for a boxing/fitness brand with an engaging and user-friendly interface.
+
+                        The website highlights structured layout design, smooth UI elements, and interactive components to deliver an impactful user experience.
+
+                        🚀 Key Features
+                        📱 Fully responsive design across all devices
+                        🎨 Strong, bold UI with fitness/boxing theme
+                        ⚡ Interactive elements using JavaScript
+                        🧩 Clean and well-structured layout
+                        🖼️ Visually appealing sections and content flow
+                        🔥 Modern web design principles applied
+                        🛠️ Technologies Used
+                            HTML5
+                            CSS3
+
+                        🌍 Live Demo
+
+                        🔗 https://ironfist-box.vercel.app/
+
+                        </p> -->
+                    <!--Redirect to Website-->
+                    <button><a target="_blank" href="https://ironfist-box.vercel.app/"> <i
+                                class="fa-solid fa-arrow-right"></i> </a></button>
+                </div>
+            </div>
+
+
+            <!--Third Project-->
+            <div class="thirdProject projectCard">
+                <div>
+                    <img width="400" height="auto" src="./images/ironFitGym.jpg" alt="Project 3">
+                </div>
+                <div class="thirdProjectContent">
+                    <h5>IronFit Gym</h5>
+                    <!--Read More-->
+                    <button><i class="fa-solid fa-plus"></i></button>
+                    <!--  <p>🌐 Project: Responsive Bootstrap Website
+
+Designed and developed a fully responsive website using Bootstrap, focusing on clean layout structure, responsiveness, and modern UI components. The project demonstrates my ability to efficiently use Bootstrap’s grid system and prebuilt components to create a professional-looking website.
+
+🚀 Key Features
+📱 Fully responsive design across all devices
+🎨 Clean and modern UI using Bootstrap components
+⚡ Fast development using Bootstrap’s grid system
+🧩 Structured layout with reusable components
+🔧 Well-organized and maintainable code
+🖥️ Cross-browser compatible design
+🛠️ Technologies Used
+HTML5
+CSS3
+Bootstrap
+
+🌍 Live Demo
+ 
+🔗 https://bootstrap-project-task0.vercel.app/
+
+                        </p> -->
+                    <!--Redirect to Website-->
+                    <button><a target="_blank" href="https://bootstrap-project-task0.vercel.app/"> <i
+                                class="fa-solid fa-arrow-right"></i> </a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+
+        <h2>-Contact-</h2>
+        <div id="contactContainer">
+            <!--Left Card-->
+            <div class="contactLeft">
+                <h3>Contact Information</h3>
+                <p>Reach Out!</p>
+                <div class="contactallContainer">
+                    <!--Address-->
+                    <div class="addContact">
+                        <div>
+                            <p><i class="fa-solid fa-location-pin"></i></p>
+                        </div>
+
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kochi, Ernakulam</p>
+                        </div>
+                    </div>
+                    <!--Phone Number-->
+                    <div class="phoneContact">
+                        <div>
+                            <p><i class="fa-solid fa-phone"></i></p>
+                        </div>
+
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p>+91 7034 081 452</p>
+                        </div>
+                    </div>
+                    <!--Email-->
+                    <div class="emailContact">
+                        <div>
+                            <p><i class="fa-solid fa-at"></i></p>
+                        </div>
+
+                        <div>
+                            <h4>Email Address </h4>
+                            <p>philophiliip21@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Right Card-->
+            <div class="contactRight">
+                <h3>Get in Touch</h3>
+
+                <div class="inputContact">
+                    <input id="nameInput" type="text" placeholder="Your Name">
+                    <input id="emailInput" type="email" placeholder="Your Email"><br><br>
+                    <input id="subjectInput" type="text" placeholder="Subject">
+                    <textarea name="" id="" placeholder="Message"></textarea>
+                    <button>Send Message</button>
+                </div>
+            </div>
+
+        </div id="contactContainer">
+
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2026 My Personal Profile. All rights reserved.</p>
+        <p>Made using HTML and CSS.</p>
+
+        <button>version 1.0</button>
+        <button>
+            <span><i class="fa-regular fa-sun"></i> Light Mode/</span>
+            <span><i class="fa-solid fa-moon"></i> Dark Mode</span>
+        </button>
+
+        <div id="goTop">
+            <a href="#hero" id="goTop"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+
+    </footer>
+
+    <!--Typing Disapper Icon-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--Link JS-->
+    <script src="./script.js"></script>
+</body>
+
+</
